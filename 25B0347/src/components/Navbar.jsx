@@ -1,11 +1,11 @@
 import React from 'react'
-import { Activity, LayoutDashboard, CalendarPlus, ShieldUser } from 'lucide-react'
+import { Activity, LayoutDashboard, CalendarPlus, UserCheck } from 'lucide-react'
 
 export default function Navbar({ currentTab, setCurrentTab }) {
   const links = [
     { id: 'home', label: 'Overview', icon: LayoutDashboard },
     { id: 'booking', label: 'Book Appointment', icon: CalendarPlus },
-    { id: 'dashboard', label: 'Patient Dashboard', icon: ShieldUser },
+    { id: 'dashboard', label: 'Patient Dashboard', icon: UserCheck },
   ]
   return (
     <nav className="bg-white shadow-sm border-b border-slate-200 sticky top-0 z-40">
